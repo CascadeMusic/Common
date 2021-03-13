@@ -1,0 +1,26 @@
+{
+  "name": "@cascade-music/common",
+  "version": "1.0.0",
+  "description": "Common utilities used throughout cascade",
+  "main": "dist/index.js",
+  "repository": "https://github.com/CascadeMusic/Common",
+  "author": "CascadeMusic",
+  "license": "GPL-3.0-only",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "private": false,
+  "dependencies": {
+    "@spectacles/brokers": "^0.8.4",
+    "reflect-metadata": "^0.1.13"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.14.34",
+    "type-fest": "^0.21.3",
+    "typescript": "^4.2.3"
+  }
+}
